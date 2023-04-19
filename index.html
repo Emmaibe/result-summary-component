@@ -11,58 +11,61 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
-    bn
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="main">
-      <section>
-        <h3>Your Result</h3>
-        <div>
-          <h1>76</h1>
-          <p>of 100</p>
-        </div>
-        <div>
-          <h2>Great</h2>
-          <p>
-            You scored hgher than 65% of the people who have taken these tests.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h3>Summary</h3>
-        <div>
-          <div>
-            <div class="img-rep">
-              <img src="" alt="" />
-              <p>Reaction</p>
-            </div>
-            <p>80 / 100</p>
+      <div class="container even-columns">
+        <section class="first-display bg-grad-secondary-100-200">
+          <h3>Your Result</h3>
+          <div class="result bg-grad-secondary-t-100-200">
+            <h1>76</h1>
+            <p>of 100</p>
           </div>
           <div>
-            <div class="img-rep">
-              <img src="" alt="" />
-              <p>Memory</p>
-            </div>
-            <p>92 / 100</p>
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
           </div>
-          <div>
-            <div class="img-rep">
-              <img src="" alt="" />
-              <p>Verbal</p>
+        </section>
+
+        <section class="second-display flex-box">
+          <h3>Summary</h3>
+          <div class="instance flex-box">
+            <div class="set flex-box bg-primary-100">
+              <div class="img-rep flex-box clr-primary-100">
+                <img src="images/icon-reaction.svg" alt="" />
+                <p>Reaction</p>
+              </div>
+              <p>80 / 100</p>
             </div>
-            <p>61 / 100</p>
-          </div>
-          <div>
-            <div class="img-rep">
-              <img src="" alt="" />
-              <p>Visual</p>
+            <div class="set flex-box bg-primary-200">
+              <div class="img-rep flex-box clr-primary-200">
+                <img src="images/icon-memory.svg" alt="" />
+                <p>Memory</p>
+              </div>
+              <p>92 / 100</p>
             </div>
-            <p>72 / 100</p>
+            <div class="set flex-box bg-primary-300">
+              <div class="img-rep flex-box clr-primary-300">
+                <img src="images/icon-verbal.svg" alt="" />
+                <p>Verbal</p>
+              </div>
+              <p>61 / 100</p>
+            </div>
+            <div class="set flex-box bg-primary-400">
+              <div class="img-rep flex-box clr-primary-400">
+                <img src="images/icon-visual.svg" alt="" />
+                <p>Visual</p>
+              </div>
+              <p>72 / 100</p>
+            </div>
           </div>
-        </div>
-        <button>Continue</button>
-      </section>
+          <button class="bg-neutral-400">Continue</button>
+        </section>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
