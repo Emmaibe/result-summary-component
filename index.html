@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
+    <main>
       <div class="container even-columns">
-        <section
+        <article
           class="first-display bg-grad-secondary-100-200 clr-neutral-100"
         >
-          <h3 class="clr-neutral-300">Your Result</h3>
+          <header>
+            <h3 class="clr-neutral-300">Your Result</h3>
+          </header>
           <div class="result bg-grad-secondary-t-100-200">
             <h1>76</h1>
             <p class="clr-neutral-300" style="opacity: 0.5">of 100</p>
@@ -31,10 +33,12 @@
               tests.
             </p>
           </div>
-        </section>
+        </article>
 
-        <section class="second-display flex-box">
-          <h3>Summary</h3>
+        <article class="second-display flex-box">
+          <header>
+            <h3>Summary</h3>
+          </header>
           <div class="instance flex-box">
             <div class="set flex-box bg-primary-100">
               <div class="img-rep flex-box clr-primary-100">
@@ -78,9 +82,9 @@
             </div>
           </div>
           <button class="bg-neutral-400">Continue</button>
-        </section>
+        </article>
       </div>
-    </div>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
